@@ -1,0 +1,95 @@
+/* Navigation container */
+.nav-container {
+  display: flex;                   /* Flexbox layout */
+  justify-content: space-between;  /* Space between left and right groups */
+  align-items: center;             /* Vertically center the items */
+  background-color: #333;          /* Background color for the nav */
+  padding: 20px;                   /* Padding inside the nav */
+}
+
+/* Left aligned buttons group */
+.nav-left {
+  display: flex;                   /* Flexbox layout for buttons */
+  gap: 20px;                       /* Space between buttons */
+}
+
+/* Right aligned buttons group */
+.nav-right {
+  display: flex;                   /* Flexbox layout */
+  gap: 20px;                       /* Space between buttons */
+  margin-left: auto;               /* Push right-aligned buttons to the right */
+}
+
+/* Styling the links to look like buttons */
+.nav-link {
+  color: white;                    /* White text */
+  text-decoration: none;           /* Remove underline */
+  padding: 10px 20px;              /* Padding to make it look like a button */
+  background-color: #444;          /* Button background color */
+  border-radius: 5px;              /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for the buttons */
+.nav-link:hover {
+  background-color: #555;          /* Darker background on hover */
+}
+
+/* Certification item layout */
+.cert-item {
+  display: flex;                 /* Display flex for side-by-side layout */
+  align-items: flex-start;       /* Align the image and content at the top */
+  margin-bottom: 20px;           /* Spacing between certification items */
+}
+
+/* Certification image styling */
+.cert-image {
+  width: 150px;                  /* Adjust the width of the image */
+  height: auto;                  /* Maintain the aspect ratio */
+  margin-right: 20px;            /* Space between the image and the details */
+  border-radius: 5px;            /* Optional: rounded corners */
+  margin-left: 20px;
+}
+
+/* Certification details styling */
+.cert-details {
+  margin-top: 20px;
+  flex: 1;                       /* Take the remaining space next to the image */
+}
+
+.cert-details h3 {
+  margin: 0;                     /* Optional: Remove margin for a tighter look */
+  font-size: 1.2em;              /* Adjust title size */
+}
+
+.cert-details p {
+  margin: 5px 0;                 /* Small margin for spacing between paragraphs */
+}
+
+.cert-details ul {
+  margin: 10px 0;                /* Add space above and below the list */
+  padding-left: 20px;            /* Indent the bullet points */
+}
+
+.cert-details ul li {
+  margin-bottom: 5px;            /* Space between list items */
+}
+
+/* About Me image styling */
+.about-me-image {
+  width: 460px;                  /* Adjust the width of the image */
+  height: 460px;                  /* Maintain the aspect ratio */
+  margin-right: 20px;            /* Space between the image and the details */
+  border-radius: 5px;            /* Optional: rounded corners */
+  margin-left: 20px;
+}
+
+/* Carrer image styling */
+.carrer-image {
+  width: 300px;                  /* Adjust the width of the image */
+  height: 200px;                  /* Maintain the aspect ratio */
+  margin-top: 20px;
+  margin-right: 20px;            /* Space between the image and the details */
+  border-radius: 5px;            /* Optional: rounded corners */
+  margin-left: 20px;
+}
