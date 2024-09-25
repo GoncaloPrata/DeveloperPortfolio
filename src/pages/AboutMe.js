@@ -4,7 +4,7 @@ import React from 'react';
 const AboutMe = () => {
     return (
         <section id="about">
-            <h2></h2>
+            <p></p>
             <div className="cert-item">
                 <img
                     src="/images/Cover Foto.jpg"
@@ -21,21 +21,21 @@ const AboutMe = () => {
                         <li>Automatically testing a REST framework developped by other teams</li>
                         <li>CLI applications that automate or make it easier to complete daily tasks</li>
                     </ul>
-                    <h2></h2>
-                    <p>Among the several techonologies I use, the ones I am most confident in are: </p>
+                    <p></p>
+                    <p>Among all the techonologies I use, the ones I am most confident in are: </p>
                     <ul>
                         <li>Python</li>
                         <li>SQL</li>
                         <li>Git (in both CLI, Gitlab, Github and Bitbucket)</li>
                     </ul>
-                    <h2></h2>
+                    <p></p>
                     <p>When it comes to non technical skills I have: </p>
                     <ul>
                         <li>Lead several projects with both technical and non techincal colleagues</li>
                         <li>Implemented testing and coding best practices in codebases used by several teams</li>
                         <li>Create documentation for both technical and non technical colleagues </li>
                     </ul>
-                    <h2></h2>
+                    <p></p>
                     <p>If you would like to contact me for hybrid/remote jobs in Lisbon or remote jobs worldwide, 
                         reach out to me either on my <a href="https://www.linkedin.com/in/gon%C3%A7alo-prata-76bb73172/">Linkedin profile</a> 
                         or via email at "goncaloprata@gmail.com".</p>
